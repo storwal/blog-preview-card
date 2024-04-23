@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Figtree", sans-serif;
+  background: hsl(47, 88%, 63%);
+  margin:0 1em;
+}
+.container{
+  max-width: 400px;
+  margin: 400px auto;
+}
+.wrapper{
+  margin: 2rem 1rem;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: 94%;
+  box-shadow: 5px 4px 0px 5px rgba(0,0,0,0.75);
+ 
+}
+.img-top{
+  border-radius: 12px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.box-text{
+  padding: 8px;
+  background-color: hsl(47, 88%, 63%);
+  padding-right: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  font-weight: bolder;
+  width: 80px;
+}
+.box-text-top{
+  padding: 8px 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+.box-text-mid a:hover{
+color:hsl(47, 88%, 63%); 
+transition: 0.15s ease-in;
+}
+.box-text-mid a{
+font-weight: 800;
+color: black;
+font-size: 20px;
+}
+.box-text-mid p{
+  padding:15px 0;
+  color: hsl(0, 0%, 50%);
+}
+.author{
+padding: 10px 0;
+display: flex;
+flex-direction: row;
+}
+.author p{
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+  
+
